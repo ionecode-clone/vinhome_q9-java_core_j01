@@ -1,0 +1,25 @@
+HỆ THỐNG QUẢN LÝ CỬA HÀNG BÁN ĐỒ NHẬP KHẨU NHẬT BẢN
+
+**********************************
+CƠ SỞ DỮ LIỆU
+**********************************
+Bảng Employee (Id, Name, Gender, Address, Email, Phone, Username, Password, IsAdmin)
+Bảng Customer (Id, Name, Gender, Address, Email, Phone, Username, Password, Point)
+Bảng Product (Id, Name, Type, Price, Image)
+Bảng Item (Product_Id, Quantity, EXP, MFG)
+Bảng SalesInvoice (Id, Employee_Id, Customer_Id, Time, Total price, Status)
+Bảng SalesInvoice_Detail (SalesInvoice_Id, Product_Id, Quantity, Total price)
+Bảng Distributor (Id, Name, Address, Email, Phone)
+Bảng PurchaseInvoice (Id, Distributor_Id, Time, Total price, Status)
+Bảng PurchaseInvoice_Detail (PurchaseInvoice_Id, Product_Id, Quantity, Total price)
+**********************************
+
+
+**********************************
+NHIỆM VỤ 1
+**********************************
+- Sinh dữ liệu cho cơ sở dữ liệu.
+	+ Dũng: Employee, Customer, Product, Item.
+	+ Công: SalesInvoice, SalesInvoice_Detail.
+	+ Huy: Distributor, PurchaseInvoice, PurchaseInvoice_Detail.
+**********************************

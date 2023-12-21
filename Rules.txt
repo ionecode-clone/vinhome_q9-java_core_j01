@@ -1,0 +1,21 @@
+HỆ THỐNG QUẢN LÝ CỬA HÀNG BÁN ĐỒ NHẬP KHẨU NHẬT BẢN
+
+**********************************
+PHÁT TRIỂN SOURCE DỰ ÁN CHUNG
+**********************************
+Bước 1: Lấy source mới nhất về.
+> git pull
+Bước 2: Sau khi thực hiện xong nhiệm vụ được giao, tiến hành đưa source đã qua chỉnh sửa lên lại kho.
+> git add .
+> git commit -m 'HoVaTen_VaiTro done task (1, 2, 3, ...)'
+> git push
+**********************************
+
+**********************************
+CẬP NHẬT LẠI NHIỆM VỤ ĐÃ HOÀN THÀNH TRƯỚC ĐÓ
+**********************************
+Nếu xảy ra vấn đề gì về source code trong quá trình thực hiện nhiệm vụ của bạn x thì có thể trao đổi với nhau trong nhóm để tìm ra vấn đề, 
+nếu vấn đề do bạn y thực hiện chưa đúng hay thiếu gì đó thì bạn x sẽ phải push phần mà bạn x đang làm dở lên kho (nhớ comment lại code, để lần 
+pull tiếp theo source code không bị lỗi) rồi bạn y pull source mới nhất về để fix lại chỗ chưa hoàn thiện của bạn y, sau đó bạn y push phần sau 
+khi cập nhật lên lại kho rồi bạn x sẽ pull về để tiếp tự thực hiện phần đang dở của bạn x.
+**********************************
