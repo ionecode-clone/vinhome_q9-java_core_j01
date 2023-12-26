@@ -1,5 +1,6 @@
 HỆ THỐNG QUẢN LÝ CỬA HÀNG BÁN ĐỒ NHẬP KHẨU NHẬT BẢN
 
+
 **********************************
 CƠ SỞ DỮ LIỆU
 **********************************
@@ -22,4 +23,17 @@ NHIỆM VỤ 1
 	+ Dũng: Employee, Customer, Product, Item.
 	+ Công: SalesInvoice, SalesInvoice_Detail.
 	+ Huy: Distributor, PurchaseInvoice, PurchaseInvoice_Detail.
+**********************************
+
+
+**********************************
+NHIỆM VỤ 2
+**********************************
+- Sinh dữ liệu cho cơ sở dữ liệu (tiếp theo).
+	+ Dũng: Từ các link hình sản phẩm, tải hình về, chuyển tất cả về đuôi .png và 
+		đặt tên cho các tệp hình ảnh lần lượt là "product-1.png", "product-2.png", 
+		..., "product-n.png" cuối cùng đưa hết tệp ảnh vào gói datas/images.
+	+ Công và Huy: Hỗ trợ Dũng thêm thông tin về Image cho bảng Product bằng cách 
+		chọn một hình ảnh nào đó phù hợp để mô tả cho sản phẩm, biết thông tin Image 
+		sẽ là chuỗi đường dẫn đến hình ảnh có dạng "src/datas/images/tên tệp hình ảnh.png".
 **********************************
