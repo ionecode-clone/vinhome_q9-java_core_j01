@@ -6,7 +6,7 @@ CƠ SỞ DỮ LIỆU
 **********************************
 Bảng Users (Id, Name, Gender, Address, Email, Phone, Username, Password, IsAdmin, IsEmployee, Point)
 Bảng Products (Id, Name, Type, Price, Image)
-Bảng Items (Product_Id, Quantity, EXP, MFG)
+Bảng Items (Id, Product_Id, Quantity, EXP, MFG)
 Bảng SalesInvoices (Id, Employee_Id, Customer_Id, Time, Total_Price, Status)
 Bảng SalesInvoices_Detail (SalesInvoice_Id, Product_Id, Quantity, Total_Price)
 Bảng Distributors (Id, Name, Address, Email, Phone)
@@ -41,6 +41,7 @@ NHIỆM VỤ 3
 **********************************
 - Điều chỉnh cơ sở dữ liệu.
 	+ Điều chỉnh lại bảng Users (từ bảng Employees và Customers trong cơ sở dữ liệu cũ).
+	+ Điều chỉnh lại bảng Items (thêm vào Id của mỗi item).
 	+ Xem lại format của các dòng dữ liệu trong cơ sở dữ liệu xem các thông tin trên từng 
 	  dòng có cách nhau bằng " - " chưa, nếu chưa thì điều chỉnh cho đồng bộ định dạng.
 - Cập nhật thông tin dự án (xem trong file Rules.txt).
