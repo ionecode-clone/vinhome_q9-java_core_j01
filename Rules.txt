@@ -2,6 +2,16 @@ HỆ THỐNG QUẢN LÝ CỬA HÀNG BÁN ĐỒ NHẬP KHẨU NHẬT BẢN
 
 
 **********************************
+VAI TRÒ TRONG DỰ ÁN
+**********************************
+Lê Đào Tấn Thành (Owner) - LeDaoTanThanh_Owner
+Huỳnh Nhật Huy (Leader) - HuynhNhatHuy_Leader
+Lê Thành Công (Developer) - LeThanhCong_Developer
+Đỗ Kỳ Dũng (Developer) - DoKyDung_Developer
+**********************************
+
+
+**********************************
 PHÁT TRIỂN SOURCE DỰ ÁN CHUNG
 **********************************
 Bước 1: Lấy source mới nhất về.

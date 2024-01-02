@@ -4,15 +4,14 @@ HỆ THỐNG QUẢN LÝ CỬA HÀNG BÁN ĐỒ NHẬP KHẨU NHẬT BẢN
 **********************************
 CƠ SỞ DỮ LIỆU
 **********************************
-Bảng Employee (Id, Name, Gender, Address, Email, Phone, Username, Password, IsAdmin)
-Bảng Customer (Id, Name, Gender, Address, Email, Phone, Username, Password, Point)
-Bảng Product (Id, Name, Type, Price, Image)
-Bảng Item (Product_Id, Quantity, EXP, MFG)
-Bảng SalesInvoice (Id, Employee_Id, Customer_Id, Time, Total price, Status)
-Bảng SalesInvoice_Detail (SalesInvoice_Id, Product_Id, Quantity, Total price)
-Bảng Distributor (Id, Name, Address, Email, Phone)
-Bảng PurchaseInvoice (Id, Distributor_Id, Time, Total price, Status)
-Bảng PurchaseInvoice_Detail (PurchaseInvoice_Id, Product_Id, Quantity, Total price)
+Bảng Users (Id, Name, Gender, Address, Email, Phone, Username, Password, IsAdmin, IsEmployee, Point)
+Bảng Products (Id, Name, Type, Price, Image)
+Bảng Items (Product_Id, Quantity, EXP, MFG)
+Bảng SalesInvoices (Id, Employee_Id, Customer_Id, Time, Total_Price, Status)
+Bảng SalesInvoices_Detail (SalesInvoice_Id, Product_Id, Quantity, Total_Price)
+Bảng Distributors (Id, Name, Address, Email, Phone)
+Bảng PurchaseInvoices (Id, Distributor_Id, Time, Total_Price, Status)
+Bảng PurchaseInvoices_Detail (PurchaseInvoice_Id, Product_Id, Quantity, Total_Price)
 **********************************
 
 
@@ -20,9 +19,7 @@ Bảng PurchaseInvoice_Detail (PurchaseInvoice_Id, Product_Id, Quantity, Total p
 NHIỆM VỤ 1
 **********************************
 - Sinh dữ liệu cho cơ sở dữ liệu.
-	+ Dũng: Employee, Customer, Product, Item.
-	+ Công: SalesInvoice, SalesInvoice_Detail.
-	+ Huy: Distributor, PurchaseInvoice, PurchaseInvoice_Detail.
+	+ Sinh dữ liệu cho các bảng trong cơ sở dữ liệu.
 **********************************
 
 
@@ -30,10 +27,23 @@ NHIỆM VỤ 1
 NHIỆM VỤ 2
 **********************************
 - Sinh dữ liệu cho cơ sở dữ liệu (tiếp theo).
-	+ Dũng: Từ các link hình sản phẩm, tải hình về, chuyển tất cả về đuôi .png và 
-		đặt tên cho các tệp hình ảnh lần lượt là "product-1.png", "product-2.png", 
-		..., "product-n.png" cuối cùng đưa hết tệp ảnh vào gói datas/images.
-	+ Công và Huy: Hỗ trợ Dũng thêm thông tin về Image cho bảng Product bằng cách 
-		chọn một hình ảnh nào đó phù hợp để mô tả cho sản phẩm, biết thông tin Image 
-		sẽ là chuỗi đường dẫn đến hình ảnh có dạng "src/datas/images/tên tệp hình ảnh.png".
+	+ Từ các link hình sản phẩm, tải hình về, chuyển tất cả về đuôi .png và đặt 
+	  tên cho các tệp hình ảnh lần lượt là "product-1.png", "product-2.png", ..., 
+	  "product-n.png" cuối cùng đưa hết tệp ảnh vào gói datas/images.
+	+ Thêm thông tin về Image cho bảng Products bằng cách chọn một hình ảnh nào đó 
+	  phù hợp để mô tả cho sản phẩm, biết thông tin Image sẽ là chuỗi đường dẫn 
+	  đến hình ảnh có dạng "src/datas/images/tên tệp hình ảnh.png".
+**********************************
+
+
+**********************************
+NHIỆM VỤ 3
+**********************************
+- Điều chỉnh cơ sở dữ liệu.
+	+ Điều chỉnh lại bảng Users (từ bảng Employees và Customers trong cơ sở dữ liệu cũ).
+	+ Xem lại format của các dòng dữ liệu trong cơ sở dữ liệu xem các thông tin trên từng 
+	  dòng có cách nhau bằng " - " chưa, nếu chưa thì điều chỉnh cho đồng bộ định dạng.
+- Cập nhật thông tin dự án (xem trong file Rules.txt).
+	+ Xem lại vai trò của các thành viên trong dự án.
+	+ Bắt đầu từ bây giờ hãy dùng tên quy định để commit khi hoàn thành task.
 **********************************
